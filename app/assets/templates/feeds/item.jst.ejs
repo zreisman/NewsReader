@@ -1,4 +1,5 @@
-<p>
-  <a href="#feeds/<%= feed.id %>"><%= feed.get('title') %></a>
-  <button class='delete-feed'>Delete!</button>
-</p>
+<div class='feed-item'>
+  <a href="#feeds/<%= feed.id %>" ><%= feed.get('title') %></a>
+  <button class='delete-feed btn btn-danger'>Delete!</button>
+  <hr>
+</div>

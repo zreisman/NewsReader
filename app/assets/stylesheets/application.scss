@@ -11,3 +11,13 @@
  *= require_self
  *= require_tree .
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+.feed-item {
+  margin: 10px 0;
+}
+
+button.delete-feed {
+  float: right;
+}
