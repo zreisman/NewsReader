@@ -1,0 +1,6 @@
+<h3><%= feed.escape('title') %></h3>
+<button class="reload-button">Refresh</button>
+
+<% feed.entries().each(function(entry) { %>
+    <li><%= entry.escape('title') %></li>
+<%  }) %>
